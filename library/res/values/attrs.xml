@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+            
+    <!-- カスタム属性を定義 -->
+	<declare-styleable name="CameraView">
+	    <!-- カメラID、通常は0 -->
+	    <attr name="camera_id" format="integer" />
+		<!-- 白黒撮影が可能な場合に白黒撮影モードにするかどうか -->
+	    <attr name="effect_mono" format="boolean" />
+	    <!-- マクロ撮影が可能な場合にマクロ撮影モードにするかどうか -->
+	    <attr name="focus_mode_macro" format="boolean" />
+	    <!-- カメラの回転がうまくいかない時のための回転オフセット -->
+	    <attr name="rotation_offset" format="integer" />
+    </declare-styleable>
+</resources>
